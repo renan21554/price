@@ -6,6 +6,10 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+body {
+    background-color: var(--Light-Gray);
+}
+
 main {
     margin-top: 4.5rem;
     padding-inline: 2rem;
@@ -22,8 +26,11 @@ h2{
     font-size: 1.125rem;
     line-height: 1.375rem;
     color: white;
+    margin-bottom: 1.125rem;
 }
 
-main{
+main {
     background-color: var(--Light-Gray);
+    padding-top: 4.5rem;
+    padding-inline: 2rem;
 }

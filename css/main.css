@@ -16,6 +16,7 @@
     padding-right: 2rem;
     padding-bottom: 2rem;
     border-radius: 0.313rem top;
+    background-color: white;
 }
 
 .esquerda {
@@ -26,4 +27,57 @@
 .direita {
     background-color: var(--light-cyan);
     padding: 1.5rem;
+}
+
+.primeiro_esquerda {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    margin-right: 0.75rem;
+}
+
+.segundo_esquerda {
+    color: white;
+    opacity: 0.5;
+}
+
+.div_esquerda {
+    display: flex;
+    margin: 0.75rem;
+    margin-bottom: 0.25rem;
+    align-items: center;
+}
+
+.esquerda>p {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 0.313rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
+
+.direita {
+    background-color: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom-right-radius: 0.313rem;
+    border-bottom-left-radius: 0.313rem;    
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }
