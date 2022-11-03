@@ -13,19 +13,13 @@
 
 .superior {
     padding-inline: 1.5rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding-block: 2rem;
     border-radius: 0.313rem top;
     background-color: white;
 }
 
 .esquerda {
     background-color: var(--Cyan);
-    padding: 1.5rem;
-}
-
-.direita {
-    background-color: var(--light-cyan);
     padding: 1.5rem;
 }
 
@@ -71,8 +65,7 @@
 .direita {
     background-color: var(--light-cyan);
     padding: 1.5rem;
-    border-bottom-right-radius: 0.313rem;
-    border-bottom-left-radius: 0.313rem;    
+    border-bottom-right-radius: 0.313rem;   
 }
 
 .direita p {

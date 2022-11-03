@@ -3,15 +3,21 @@
         display: flex;
     }
 
-    .esquerda,
+    .esquerda {
+        width: 100%;
+        padding: 2.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
     .direita {
         width: 100%;
         padding: 2.5rem;
+        border-bottom-right-radius: 0.5rem;
     }
 
     main {
         max-width: 40rem;
-        padding: none;
+        padding: 0;
     }
 
     body {
@@ -36,7 +42,7 @@
     }
 
     .segundo {
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
 
     .esquerda {
@@ -44,8 +50,8 @@
     }
 
     .direita {
-        border-bottom-left-radius: none;
-        border-bottom-right-radius: none;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         border-bottom-right-radius: 0.5rem;
     }
 }
